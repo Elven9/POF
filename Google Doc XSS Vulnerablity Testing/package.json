@@ -1,0 +1,15 @@
+{
+  "name": "google-doc-xss-pov-testing",
+  "version": "1.0.0",
+  "description": "[LiveOverflow Youtube Video Link](https://www.youtube.com/watch?v=aCexqB9qi70)",
+  "main": "c2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

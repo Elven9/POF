@@ -1,0 +1,12 @@
+<body>
+  <h1>I am a trusted site design to be embedded in another web site</h1>
+</body>
+
+
+<script>
+  window.addEventListener("message", e => {
+    let src = document.createElement("script")
+    src.src = e.data.link
+    document.body.appendChild(src)
+  })
+</script>
